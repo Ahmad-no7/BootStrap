@@ -1,0 +1,87 @@
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}
+.navbar-logo{
+    width: 50px;
+}
+.nav-link {
+    color: #ababab;
+}
+.nav-link.active {
+    color: black;
+}
+
+.carousel-inner{
+    height: 30%;
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 6px;
+}
+.jumbotron{
+    background-color: #412700;
+}
+.item, img{
+    height: 100% ;
+    width:  100% ;
+}
+.btn-primary {
+    background-color: #7c4b00 !important;
+    border: none;
+    transition-duration: background-color 0.5s;
+}
+.btn-primary :hover {
+    background-color: #101010 !important;
+    border: none;
+}
+.navbar-toggler-icon {
+    width: 20px;
+}
+.card {
+    scale: 1;
+    transition: 0.3s;
+}
+.card:hover {
+    scale: 1.02;
+}
+
+
+.card-produk {
+    width: 14rem;
+}
+.card-tim {
+    width: 20rem;
+}
+
+.contact-map {
+    height: 400px;
+    width: 90%;
+}
+.contactForm{
+    width: 90%;
+}
+
+.logo-nav {
+    width: 60px;
+}
+
+.text-header {
+    text-align: center;
+}
+
+.about-us-img {
+    height: 420px;
+    width: 500px;
+}
+.popup button {
+    background-color: #d7d7d7;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.popup button:hover {
+    background-color: #5c5c5c;
+}
